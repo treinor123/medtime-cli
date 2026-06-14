@@ -1,6 +1,6 @@
 # 🩺 MedTime - Gerenciador de Medicamentos na Nuvem
 
-Um sistema de linha de comando (CLI) conectado a um banco de dados em nuvem, projetado para resolver um problema crítico: o esquecimento e a confusão na administração de medicamentos por idosos e cuidadores.
+Um sistema de gerenciamento conectado a um banco de dados em nuvem, projetado para resolver um problema crítico: o esquecimento e a confusão na administração de medicamentos por idosos e cuidadores. Agora com interface web interativa!
 
 Trabalho prático desenvolvido para a disciplina **BOOTCAMP II** do curso de **Ciência da Computação** no **UniCEUB**.
 
@@ -9,7 +9,7 @@ Trabalho prático desenvolvido para a disciplina **BOOTCAMP II** do curso de **C
 ## 👥 Equipe de Desenvolvimento
 * **Thiago Paranaiba Vilela** - RA: 22501672
 * **Vitor de Pádua Moreira Justo** - RA: 22550776
-* **Guilherme Gabriel Couto Machado** - RA: 22552502
+* **Vinicius Gabriel Couto Machado** - RA: 22552502
 * **Eduardo Fernandes** - RA: 22552011
 * **Lucas Diógenes Landim Vasques** - RA: 22553040
 
@@ -20,18 +20,27 @@ Trabalho prático desenvolvido para a disciplina **BOOTCAMP II** do curso de **C
 ## 🛠️ Stack Tecnológica
 * **Linguagem:** Python 3.10+
 * **Banco de Dados (DBaaS):** Supabase (PostgreSQL)
+* **Interface Web (Deploy):** Streamlit
 * **Qualidade e Estilo:** ruff (Linting)
 * **Testes Automatizados:** pytest
 * **Integração Contínua (CI):** GitHub Actions
-* **Interface CLI:** tabulate
+* **Interface CLI:** tabulate (para versão de terminal)
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente (Deploy/Uso)
+## 🚀 Acesso ao Sistema (Deploy Web)
 
-Como o sistema é uma aplicação de terminal conectada diretamente à nuvem, não é necessário configurar um servidor web local. O banco de dados já está hospedado e totalmente operante.
+A aplicação foi implantada na nuvem e pode ser acessada de qualquer computador ou celular.
+
+🌐 **Clique aqui para acessar o MedTime:** [https://medtime-cli-fevg94dsfr3v8iaua8z9zs.streamlit.app/](https://medtime-cli-fevg94dsfr3v8iaua8z9zs.streamlit.app/)
+
+---
+
+## 💻 Como Executar o Projeto Localmente
+
+O banco de dados (Supabase) já está hospedado e totalmente operante. Caso queira rodar o código-fonte na sua própria máquina, siga os passos:
 
 1. **Clone este repositório:**
-   ```bash
+```bash
    git clone [https://github.com/treinor123/medtime-cli.git](https://github.com/treinor123/medtime-cli.git)
    cd medtime-cli
